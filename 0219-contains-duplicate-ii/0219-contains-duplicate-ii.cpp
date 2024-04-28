@@ -14,10 +14,8 @@ public:
                 n = i - res[nums[i]];
                 if (n <= k)
                     isTrue = 1;
-                res[nums[i]] = i;
-            } else {
-                res[nums[i]] = i;
             }
+            res[nums[i]] = i;
         }
         return isTrue;
     }
