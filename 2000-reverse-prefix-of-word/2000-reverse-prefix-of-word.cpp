@@ -4,7 +4,7 @@ public:
         string ans = "";
         string temp = "";
         int cnt = 0;
-        int j;
+        int j = 0;
 
         for (int i = 0; i < word.size(); i++) {
             if (word[i] == ch) {
